@@ -1,0 +1,39 @@
+# The format of this file is documented in the dhcpd.leases(5) manual page.
+# This lease file was written by isc-dhcp-4.4.3-P1
+
+# authoring-byte-order entry is generated, DO NOT DELETE
+authoring-byte-order little-endian;
+
+server-duid "\000\001\000\0012Z.1\010\000'B\342+";
+
+lease 192.168.57.20 {
+  starts 4 2026/10/08 10:40:41;
+  ends 5 2026/10/09 10:40:41;
+  cltt 4 2026/10/08 10:40:41;
+  binding state active;
+  next binding state free;
+  rewind binding state free;
+  hardware ethernet 08:00:27:d9:c6:44;
+  uid "\377'\331\306D\000\001\000\0012W\246^\010\000'\331\306D";
+  client-hostname "bookworm";
+}
+lease 192.168.57.20 {
+  starts 4 2026/10/08 10:40:41;
+  ends 4 2026/10/08 10:40:48;
+  tstp 4 2026/10/08 10:40:48;
+  cltt 4 2026/10/08 10:40:41;
+  binding state free;
+  hardware ethernet 08:00:27:d9:c6:44;
+  uid "\377'\331\306D\000\001\000\0012W\246^\010\000'\331\306D";
+}
+lease 192.168.57.20 {
+  starts 4 2026/10/08 10:40:56;
+  ends 5 2026/10/09 10:40:56;
+  cltt 4 2026/10/08 10:40:56;
+  binding state active;
+  next binding state free;
+  rewind binding state free;
+  hardware ethernet 08:00:27:d9:c6:44;
+  uid "\377'\331\306D\000\001\000\0012W\246^\010\000'\331\306D";
+  client-hostname "bookworm";
+}
