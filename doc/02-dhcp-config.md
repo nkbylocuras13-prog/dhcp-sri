@@ -31,25 +31,16 @@ PID file: /var/run/dhcpd.pid
 
 
 isc-dhcp-server.service - LSB: DHCP server
-
-&#x20;    Loaded: loaded (/etc/init.d/isc-dhcp-server; generated)
-
-&#x20;    Active: active (running) since Thu 2026-10-08 19:33:07 UTC; 2min 40s ago
-
-&#x20;      Docs: man:systemd-sysv-generator(8)
-
-&#x20;   Process: 1868 ExecStart=/etc/init.d/isc-dhcp-server start (code=exited, status=0/SUCCESS)
-
-&#x20;     Tasks: 1 (limit: 496)
-
-&#x20;    Memory: 4.4M
-
-&#x20;       CPU: 19ms
-
-&#x20;    CGroup: /system.slice/isc-dhcp-server.service
-
-&#x20;            └─1880 /usr/sbin/dhcpd -4 -q -cf /etc/dhcp/dhcpd.conf eth2
-
+isc-dhcp-server.service - LSB: DHCP server
+     Loaded: loaded (/etc/init.d/isc-dhcp-server; generated)
+     Active: active (running) since Thu 2026-10-08 19:33:07 UTC; 2min 40s ago
+       Docs: man:systemd-sysv-generator(8)
+    Process: 1868 ExecStart=/etc/init.d/isc-dhcp-server start (code=exited, status=0/SUCCESS)
+      Tasks: 1 (limit: 496)
+     Memory: 4.4M
+        CPU: 19ms
+     CGroup: /system.slice/isc-dhcp-server.service
+             └─1880 /usr/sbin/dhcpd -4 -q -cf /etc/dhcp/dhcpd.conf eth2
 
 
 Oct 08 19:33:05 bookworm dhcpd\[1880]: Wrote 0 deleted host decls to leases file.
