@@ -1,4 +1,4 @@
-# Práctica A: Configuración de Servidor DHCP
+# Práctica: Configuración de Servidor DHCP
 
 Repositorio correspondiente a la Práctica de Servidor DHCP.
 
